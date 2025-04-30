@@ -19,8 +19,10 @@ def main():
 
     content = get_book_text(path)
     num_words = count_words(content)
+
     print("----------- Word Count ----------")
     print(f"Found {num_words} total words")
+    
 
     count_char = count_characters(content)
     sorted_count_char = sort_dictionaries(count_char)
@@ -33,6 +35,5 @@ def main():
 
     print("============= END ===============")
         
-
 
 main()

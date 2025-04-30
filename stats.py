@@ -12,7 +12,6 @@ def count_characters(text):
             counts[char] += 1
             continue
         counts[char] = 1
-
     return counts
 
 
